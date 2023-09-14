@@ -16,7 +16,7 @@ mkdir "$home/$folder_name1"
 chmod 644 "$home/$folder_name1"
 echo "Created folder: $folder_name1"
 
-touch "$home/$folder_name/$file_name"
-chmod 444 "$home/$folder_name/$file_name"
-echo "Created file: $file_name"
+touch "$home/$folder_name1/$file_name2"
+chmod 744 "$home/$folder_name1/$file_name2"
+echo "Created file: $file_name2"
 
