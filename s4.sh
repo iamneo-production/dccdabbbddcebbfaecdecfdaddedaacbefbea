@@ -1,6 +1,4 @@
-read -p "Enter Day: " Day
-read -p "Enter Month: " Month
-read -p "Enter Year: " Year
-
-d_o_b="$Day-$Month-$Year"
-echo "Birth-date is: $d_o_b" 
+read -p "Enter num1: " num1
+read -p "Enter num2: " num2
+totalsum=$((num1+num2))
+if[$totalsum]
