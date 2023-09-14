@@ -1,5 +1,6 @@
-mkdir new_folder1
-touch new_file2.txt
-chmod 444 new_folder1
-chmod 444 new_file2.txt\
-mk
+read -p "Enter Day: " Day
+read -p "Enter Month: " Month
+read -p "Enter Year: " Year
+
+d_o_b="$Day-$Month-$Year"
+echo "Birth-date is: $d_o_b" 
