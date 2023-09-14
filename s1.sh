@@ -1,1 +1,5 @@
-
+file_name="new_file1"
+file_content="Hello Welcome to Linux"
+echo "$file_content" > "$file_name"
+echo "Created file: $file_name"
+echo "$"
